@@ -9,7 +9,6 @@ mock-api/yarn-error.log*
 # =====================
 # Go (energygrid-client-go)
 # =====================
-energygrid-client-go/
 
 *.exe
 *.exe~
