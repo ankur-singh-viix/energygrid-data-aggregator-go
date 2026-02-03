@@ -1,0 +1,35 @@
+# =====================
+# Node.js (mock-api)
+# =====================
+mock-api/node_modules/
+mock-api/npm-debug.log*
+mock-api/yarn-error.log*
+
+# =====================
+# Go (energygrid-client-go)
+# =====================
+energygrid-client-go/
+
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Optional: Go workspace checksum
+# go.sum
+
+# =====================
+# OS / Editor
+# =====================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =====================
+# Env / Secrets
+# =====================
+.env
