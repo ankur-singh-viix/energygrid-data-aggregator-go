@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap');
+
+:root {
+  --calendar-blue: #1a6fc4;
+  --calendar-light: #e8f0fb;
+  --calendar-accent: #f0a500;
+  --calendar-bg: #f5f4f0;
+  --calendar-paper: #ffffff;
+  --calendar-text: #1a1a2e;
+  --calendar-muted: #8a8a9a;
+  --shadow-paper: 0 8px 32px rgba(0, 0, 0, 0.12), 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: var(--calendar-bg);
+  color: var(--calendar-text);
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Playfair Display', serif;
+}
